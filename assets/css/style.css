@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    background-color: rgba(242, 131, 205, 0.559);
+}
+
+header {
+    display: block;
+}
+
+h1::after {
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    content: 'alc0ve';
+    margin-left: 9px;
+
+}
+
+/*sentence to be made a bit smaller than the main content*/
+#p, header p {
+    font-size: smaller;
+}
+
+nav {
+    display: flex;
+    justify-content: end;
+}
+
+nav a {
+    color: #13293d;
+    padding: 15px 20px;
+    text-align: center;
+}
+
+nav a:hover {
+    color:aquamarine;
+}
+
+body {
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+
+.all-facts{
+    margin: 0px;
+    padding: 5px;
+    background-color: rgba(136, 46, 221, 0.633);
+}
+
+/*my picture*/
+.all-facts img {
+    width: 300px;
+}
+
+/*forms the cards*/
+.facts {
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 10px;
+    padding: 5px;
+    flex: 0 0 300px;
+    background: beige;
+    color: #000;
+}
+
+.facts h2{
+    padding: 10px;
+}
+
+.facts p{
+    text-align: center;
+}
+
+/*app images*/
+.facts img {
+    width: 100%;
+}
+
+/*group of cards*/
+.apps {
+    flex: 4;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+footer {
+    display:flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+    html, nav {
+        flex-direction: column;
+    }
+}
