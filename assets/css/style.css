@@ -2,6 +2,7 @@
     box-sizing: border-box;
 }
 
+
 html {
     background-color: rgba(242, 131, 205, 0.559);
 }
@@ -49,10 +50,11 @@ body {
     color: #fff;
 }
 
-/*about me paragraph*/
-#about-me-p {
-    margin-left: 200px;
-    margin-right: 200px;
+.aboutmeflex {
+    display: flex;
+    padding-left: 200px;
+    padding-right: 200px;
+
 }
 
 /*purple container with about me, work, and contact info*/
@@ -83,17 +85,33 @@ h2 {
     border-style: solid;
     border-width: 3px;
     border-radius: 10px;
-    padding: 5px;
-    flex: 0 0 250px;
+    padding: 15px;
+    flex: 0 0 300px;
     background: beige;
     color: #000;
 }
 
-/*first app picture*/
-#dog {
-    width: 700px;
-    height: 900px;
+/*App 1 card*/
+#ahsokacard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 10px;
+    padding: 20px;
+    background: beige;
+    color: #000;
 }
+
+/*App 1 card picture with Ahsoka*/
+#dog {
+    width: 500px;
+    height: 700px;
+    border-radius: 10px;
+    object-fit: contain;
+}
+
 
 .facts h2{
     padding: 10px;
@@ -107,15 +125,16 @@ h2 {
 .facts img {
     width: 100%;
     border-radius: 10px;
+    object-fit: contain;
 }
 
-.facts:hover {
+.facts:hover, #ahsokacard:hover{
     box-shadow: inset 0px 0px 7px 7px rgba(234, 70, 174, 0.577);
     cursor: pointer;
 }
 
-/*group of cards*/
-.apps{
+/*2-4 app cards*/
+.apps {
     flex: 4;
     padding: 20px;
     display: flex;
@@ -126,10 +145,10 @@ h2 {
 .contactlinks {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     margin: 30px;
     padding: 10px;
     text-align: center;
+    gap: 10px;
 }
 
 footer {
@@ -147,7 +166,19 @@ button {
 }
 
 @media screen and (max-width: 768px) {
-    html, nav {
+
+    html,
+    nav {
         flex-direction: column;
+    }
+
+    .aboutmeflex {
+        display: flex;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    #dog {
+        width: 100%;
     }
 }
