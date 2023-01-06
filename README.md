@@ -12,9 +12,9 @@ To create this portfolio, I began with a folder, then creating an index.html fil
 
 This page is solely for anybody to use to get to know my journey as I learn web development. Its purpose is also for me to track what I've learned through app cards. I hope it will be "très magnifique" or close to it when the time comes. Currently one can go on the webpage, then click on the photos in the app cards, and learn about things I like.
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative file path, add it to your README using the following syntax:
+Screenshot of deployed webpage:
 
-![alt text](/assets/images/bg.jpg)
+![alt text](/assets/images/Screenshot-le-petit-mignon.png)
 
 Deployed page link: https://alc0ve.github.io/le-petit-mignon/
 
@@ -23,6 +23,7 @@ My GitHub repo to this project: https://github.com/alc0ve/le-petit-mignon
 ## Credits
 
 Thanks to Blair, Lacey, Brian, Christina B., and BJ! Love my classmates! They were extremely helpful and the feedback was most needed. I am so blessed to have met you all! I look forward to future projects together! 😄
+
 Thank you to my tutor, Brandon Rose, for debugging some weird things in my code-- that background header image, especially. I learned a lot! Thank you also for sticking with me through the deployment process.
 
 For the effects in the experimental button at the bottom of the website I used:

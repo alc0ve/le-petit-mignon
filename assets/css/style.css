@@ -10,7 +10,6 @@ header {
     background-image: url("../images/bg.jpg");
     background-repeat: no-repeat;
     background-size: 100vw 120vh;
-   /*background-size: cover;*/
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -28,7 +27,8 @@ h1::after {
 
 /*sentence to be made a bit smaller than the main content*/
 #p {
-    font-weight: 200;
+    font-size: large;
+    font-weight: 400;
     font-style: italic;
     padding: 3%;
 }
@@ -179,7 +179,7 @@ button:hover {
     box-shadow: 0 4px 15px 0 rgba(116, 79, 168, 0.75);
     color: #fff;
     background-position: 100% 0;
-    moz-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
     -o-transition: all .4s ease-in-out;
     -webkit-transition: all .4s ease-in-out;
     transition: all .4s ease-in-out;
