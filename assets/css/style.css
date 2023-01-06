@@ -8,6 +8,9 @@ html {
 }
 
 header {
+    background-image: url("../images/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -27,6 +30,7 @@ h1::after {
 #p {
     font-weight: 200;
     font-style: italic;
+    padding: 3%;
 }
 
 nav {
@@ -61,7 +65,7 @@ body {
 .all-facts{
     margin: 0px;
     padding: 5px;
-    background-color: rgba(136, 46, 221, 0.633);
+    background-color: rgba(136, 46, 221, 0.508);
 }
 
 /*all headers in purple container*/
@@ -76,7 +80,7 @@ h2 {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 300px;
+    width: 400px;
     border-radius: 15px;
 }
 
@@ -99,17 +103,18 @@ h2 {
     border-style: solid;
     border-width: 3px;
     border-radius: 10px;
-    padding: 20px;
+    padding: 10px;
     background: beige;
     color: #000;
+    width: fit-content;
+    margin: auto;
 }
 
 /*App 1 card picture with Ahsoka*/
 #dog {
-    width: 500px;
-    height: 700px;
+    width: 600px;
+    height: 800px;
     border-radius: 10px;
-    object-fit: contain;
 }
 
 
@@ -158,11 +163,27 @@ footer {
 
 /*back to top button*/
 button {
+    background-image: linear-gradient(to left, #667eea, #764ba2, #6B8DD6, #8E37D7);
+    color:#fff;
+    font-size: 16px;
     float: right;
     width: 25%;
     margin: 2% 0;
     padding: 2%;
+    border-radius: 20px;
     cursor: pointer;
+}
+
+/*experimental button hover color transform thing*/
+button:hover {
+    background-image: linear-gradient(to right, #667eea, #764ba2, #6B8DD6, #8E37D7);
+    box-shadow: 0 4px 15px 0 rgba(116, 79, 168, 0.75);
+    color: #fff;
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
 }
 
 @media screen and (max-width: 768px) {
@@ -179,6 +200,11 @@ button {
     }
 
     #dog {
+        width: 100%;
+        height: auto;
+    }
+
+    #Xtina {
         width: 100%;
     }
 }
