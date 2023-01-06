@@ -14,7 +14,7 @@ This page is solely for anybody to use to get to know my journey as I learn web 
 
 Screenshot of deployed webpage:
 
-![alt text](/assets/images/Screenshot-le-petit-mignon.png)
+![alt text](/assets/images/Screenshot-of-le-petit-mignon.png)
 
 Deployed page link: https://alc0ve.github.io/le-petit-mignon/
 
